@@ -20,11 +20,6 @@ yarn-error.log*
 
 jspm_packages/
 
-# Build output
-
-/dist/
-build/
-
 # Runtime data
 
 pids/
