@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhamed Shillua | Backend Engineer</title>
+  <meta name="description"
+    content="Muhamed Shillua - Backend Engineer building secure, scalable Node.js APIs with Express, PostgreSQL, MongoDB, and Docker." />
+
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:title" content="Muhamed Shillua" />
+  <meta property="og:description"
+    content="Backend Engineer building secure, scalable Node.js APIs with Express, PostgreSQL, MongoDB, and Docker." />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Muhamed Shillua" />
+  <meta name="twitter:description"
+    content="Backend Engineer building secure, scalable Node.js APIs with Express, PostgreSQL, MongoDB, and Docker." />
+
+  <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="./src/css/main.css" />
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="topbar" role="banner">
+      <nav class="tabs" aria-label="Sections">
+        <button class="tabs__btn active" data-target="about" aria-label="Profile Section">Profile</button>
+        <button class="tabs__btn" data-target="education" aria-label="Education Section">Education</button>
+        <button class="tabs__btn" data-target="skills" aria-label="Tech Stack Section">Tech Stack</button>
+        <button class="tabs__btn" data-target="projects" aria-label="Projects Section">Selected Work</button>
+        <button class="tabs__btn" data-target="contact" aria-label="Contact Section">Connect</button>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle Theme">Theme</button>
+    </header>
+
+    <main id="content" class="content" role="main"></main>
+  </div>
+
+  <div id="tooltip" class="tooltip" role="tooltip" aria-hidden="true"></div>
+
+  <script type="module" src="./src/js/app.js"></script>
+</body>
+
+</html>
