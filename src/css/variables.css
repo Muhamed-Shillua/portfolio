@@ -1,0 +1,39 @@
+/* ========================================= */
+/* 1. IMPORTS & VARIABLES                    */
+/* ========================================= */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/@fontsource/cascadia-code@4.2.1/index.min.css');
+
+:root {
+  --bg: #0f111a;
+  --panel: #161b2b;
+  --panel-border: rgba(148, 163, 184, 0.2);
+  --text: #f5f5f5;
+  --muted: #98a6bf;
+  --keyword: #38d4e8;
+  --string: #ff6aa2;
+  --comment: #7dbb73;
+  --number: #ffe66d;
+  --variable: #8be9fd;
+  --accent-cyan: #38d4e8;
+  --accent-magenta: #ff6aa2;
+  --accent-yellow: #ffe66d;
+  --radius: 14px;
+  --radius-sm: 10px;
+}
+
+html[data-theme="light"] {
+  --bg: #f8fafc;
+  --panel: #ffffff;
+  --panel-border: rgba(100, 116, 139, 0.34);
+  --text: #0f172a;
+  --muted: #334155;
+  --keyword: #007f99;
+  --string: #c2185b;
+  --comment: #2e7d32;
+  --number: #8a6d00;
+  --variable: #006d77;
+  --accent-cyan: #0891b2;
+  --accent-magenta: #db2777;
+  --accent-yellow: #ca8a04;
+}
